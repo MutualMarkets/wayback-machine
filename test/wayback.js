@@ -5,7 +5,7 @@ var assert = require('assert'),
 		fs = require('fs'),
 		wayback = require('../lib/wayback');
 
-var url = 'http://automata.cc/thumb-chuck-wiimote.png';
+var url = 'https://automata.cc/thumb-chuck-wiimote.png';
 
 describe('wayback API - integration test', function() {
 	describe('getClosest()', function() {
@@ -31,7 +31,7 @@ describe('wayback API - integration test', function() {
 		it('should throw an error on timeout', function(done) {
 			// Force a timeout
 			this.timeout(10000);
-			var options = {'timeout': 100};
+			var options = {'timeout': 10};
 			wayback.getClosest(url, options, function(err, resp) {
 				assert.ok(err !== null);
 				assert.ok(err instanceof Error);
