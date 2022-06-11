@@ -1,7 +1,7 @@
 {
-  "name": "wayback-machine",
-  "version": "0.2.1",
-  "description": "Internet Wayback Machine Client",
+  "name": "@mutualmarkets/wayback-machine",
+  "version": "0.2.2",
+  "description": "Internet Wayback Machine Client Fork To Https",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/",
@@ -19,9 +19,9 @@
   "author": "Maciej Brencz <maciej.brencz@gmail.com> (https://github.com/macbre)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/macbre/wayback-machine/issues"
+    "url": "https://github.com/@mutualmarkets/wayback-machine/issues"
   },
-  "homepage": "https://github.com/macbre/wayback-machine#readme",
+  "homepage": "https://github.com/@mutualmarkets/wayback-machine#readme",
   "devDependencies": {
     "jshint": "^2.9.4",
     "mocha": "^3.2.0"
