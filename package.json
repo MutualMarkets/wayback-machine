@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/macbre/wayback-machine.git"
+    "url": "git+https://github.com/mutualmarkets/wayback-machine.git"
   },
   "keywords": [
     "archive",
     "memento",
     "wayback"
   ],
-  "author": "Maciej Brencz <maciej.brencz@gmail.com> (https://github.com/macbre)",
+  "author": "Fork of (https://github.com/macbre)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/@mutualmarkets/wayback-machine/issues"
+    "url": "https://github.com/mutualmarkets/wayback-machine/issues"
   },
-  "homepage": "https://github.com/@mutualmarkets/wayback-machine#readme",
+  "homepage": "https://github.com/mutualmarkets/wayback-machine#readme",
   "devDependencies": {
     "jshint": "^2.9.4",
     "mocha": "^3.2.0"
