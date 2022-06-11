@@ -1,4 +1,5 @@
 # wayback-machine
+This is a fork changing to https
 
 [![NPM version](https://badge.fury.io/js/wayback-machine.png)](http://badge.fury.io/js/wayback-machine)
 [![Build Status](https://api.travis-ci.org/macbre/wayback-machine.png)](http://travis-ci.org/macbre/wayback-machine)
